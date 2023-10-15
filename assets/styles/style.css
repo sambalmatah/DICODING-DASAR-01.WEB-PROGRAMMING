@@ -45,3 +45,11 @@ nav a:hover {
     margin: 20px;
     padding: 20px;
 }
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #22c8eb;
+    text-align: center;
+    color: white;
+}
