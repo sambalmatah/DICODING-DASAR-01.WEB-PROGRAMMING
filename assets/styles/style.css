@@ -72,6 +72,10 @@ nav {
 
 main {
     padding: 20px;
+
+    /* menambahkan overflow agar float
+    pada #content dan tag aside tidak collapse */
+    overflow: auto;
 }
 
 #content {
