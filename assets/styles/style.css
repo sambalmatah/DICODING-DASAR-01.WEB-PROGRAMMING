@@ -86,4 +86,11 @@ main {
 aside {
     float: right;
     width: 25%;
+    padding-left: 20px;
+}
+
+* {
+
+    /* menambah box-sizing setelah width 100% + 20px */
+    box-sizing: border-box;
 }
