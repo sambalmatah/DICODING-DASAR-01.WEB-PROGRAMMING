@@ -94,3 +94,12 @@ aside {
     /* menambah box-sizing setelah width 100% + 20px */
     box-sizing: border-box;
 }
+
+/* menerapkan screen max untuk device smartphone */
+
+@media screen and (max-width: 1000px) {
+    #content, aside {
+        width: 100%;
+        padding: 0;
+    }
+}
