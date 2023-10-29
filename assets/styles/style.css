@@ -68,6 +68,10 @@ nav li {
 nav {
     background-color: #00a2c6;
     padding: 5px;
+
+    /* membuat sticky nav */
+    position: sticky;
+    top: 0;
 }
 
 main {
@@ -95,6 +99,7 @@ aside {
     box-sizing: border-box;
 }
 
+
 /* menerapkan screen max untuk device smartphone */
 
 @media screen and (max-width: 1000px) {
@@ -102,4 +107,11 @@ aside {
         width: 100%;
         padding: 0;
     }
+}
+
+
+/* menerapkan nav sticky position */
+
+header {
+    display: inline;
 }
