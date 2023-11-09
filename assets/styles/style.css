@@ -93,6 +93,9 @@ main {
 
 #content {
     flex: 5;
+
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 aside {
