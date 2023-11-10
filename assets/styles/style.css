@@ -1,132 +1,129 @@
 body {
-    font-family: Quicksand ,sans-serif;
+  font-family: Quicksand, sans-serif;
 
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-h2, h3 {
-    color: #00a2c6;
+h2,
+h3 {
+  color: #00a2c6;
 }
 
 footer {
-    padding: 20px;
-    color: white;
-    background-color: #00a2c6;
-    text-align: center;
-    font-weight: bold;
+  padding: 20px;
+  color: white;
+  background-color: #00a2c6;
+  text-align: center;
+  font-weight: bold;
 }
 
 nav a {
-    font-size: 18px;
-    font-weight: 400;
-    text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
 
-    color: white;
+  color: white;
 }
 
 nav a:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .profile header {
-    text-align: center;
+  text-align: center;
 }
 
 .featured-image {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-    object-position: center;
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
 }
 
-.profile-image{
-    width: 200px;
+.profile-image {
+  width: 200px;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
-    border-radius: 5px;
-    padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 20px;
 }
 
 .jumbotron {
-    font-size: 20px;
-    padding: 60px;
-    background-color: #22c8eb;
-    text-align: center;
-    color: white;
+  font-size: 20px;
+  padding: 60px;
+  background-color: #22c8eb;
+  text-align: center;
+  color: white;
 }
 
 nav li {
-    
-    list-style-type: none;
-    
+  list-style-type: none;
 }
 
 nav {
-    background-color: #00a2c6;
-    padding: 5px;
+  background-color: #00a2c6;
+  padding: 5px;
 
-    /* membuat sticky nav */
-    position: sticky;
-    top: 0;
+  /* membuat sticky nav */
+  position: sticky;
+  top: 0;
 }
 
 nav ul {
-    display: flex;
-    padding-inline: 4rem;
-    gap: 2rem;
+  display: flex;
+  padding-inline: 4rem;
+  gap: 2rem;
 }
 
 main {
-    padding: 20px;
+  padding: 20px;
 
-    display: flex;
-    gap: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
 
-    /* menambahkan overflow agar float
+  /* menambahkan overflow agar float
     pada #content dan tag aside tidak collapse */
-    /* overflow: auto; */
+  /* overflow: auto; */
 }
 
 #content {
-    flex: 5;
+  flex: 5;
 
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 1rem 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem 2rem;
 }
 
 aside {
-    flex: 1;
+  flex: 1;
 }
 
 * {
-
-    /* menambah box-sizing setelah width 100% + 20px */
-    box-sizing: border-box;
+  /* menambah box-sizing setelah width 100% + 20px */
+  box-sizing: border-box;
 }
-
 
 /* menerapkan screen max untuk device smartphone */
 
 @media screen and (max-width: 1000px) {
-    #content, aside {
-        width: 100%;
-        padding: 0;
-    }
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
 }
-
 
 /* menerapkan nav sticky position */
 
 header {
-    display: inline;
+  display: inline;
 }
 
-@media screen and (max-width: 1200px;){
-    
+@media screen and (max-width: 1200px) {
 }
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 768px) {
+}
